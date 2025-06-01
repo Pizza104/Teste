@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background-color: beige;
+}
+
+#criador {
+  background-color: red;
+  border: 1px solid rgb(0, 0, 0);
+}
+#criador h1 {
+  padding-left: 15px;
+  text-align: left;
+  color: white;
+}
+#carta {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: gray;
+  height: 300px;
+  width: 400px;
+  margin-left: 700px;
+}
+#carta img {
+  max-width: 250px;
+  max-height: 250px;
+  margin-left: 145px;
+}
+#carta p {
+  text-align: center;
+}
+#embaixo {
+  margin-top: 448px;
+  border: 1px solid black;
+  background-color: red;
+  height: 83px;
+}
+#embaixo p:hover {
+  color: red;
+}
+#embaixo p {
+  text-align: center;
+}

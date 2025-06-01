@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  
+  margin: 0px;
+  background-color: beige;
+}
+#largura {
+  border: 2px solid black;
+  background-color: red;
+}
+#largura h1 {
+  color: white;
+  padding-left: 65px;
+}
+
+
+#boasvindas {
+  margin-top: 100px;
+  background-color: rgb(170, 170, 170);
+  border: 1px solid rgb(37, 37, 37);
+  border-radius: 10px;
+  height: 330px;
+  width: 400px;
+  margin-left: 750px;
+}
+#boasvindas p {
+  padding-left: 15px;
+  text-align: left;
+  font-size: medium;
+}
+
+#boasvindas p b{
+text-decoration: underline;
+}
+
+#boasvindas p b:hover {
+  color: red;
+}
+#boasvindas img{
+  margin-left: 150px;
+  height: 100px;
+  width: 100px;
+}
+button a {
+  color: black;
+  font-size: 15px;
+}
+button a:hover {
+  color: red;
+}
+#centro {
+  margin-left: 140px;
+}
+#criadores {
+  margin-left: 10px;
+}
+#embaixo {
+  margin-top: 300px;
+  background-color: red;
+  height:79px;
+}
+#embaixo p {
+  padding-left: 500px;
+  padding-top: 30px;
+  color: white;
+  font-size: large;
+}
