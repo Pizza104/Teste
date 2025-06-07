@@ -2,9 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  
   margin: 0px;
-  background-color: beige;
+  background-color: rgb(255, 255, 255);
 }
 #largura {
   border: 2px solid black;
@@ -14,7 +13,6 @@ body {
   color: white;
   padding-left: 65px;
 }
-
 
 #boasvindas {
   margin-top: 100px;
@@ -31,14 +29,14 @@ body {
   font-size: medium;
 }
 
-#boasvindas p b{
-text-decoration: underline;
+#boasvindas p b {
+  text-decoration: underline;
 }
 
 #boasvindas p b:hover {
   color: red;
 }
-#boasvindas img{
+#boasvindas img {
   margin-left: 150px;
   height: 100px;
   width: 100px;
@@ -59,7 +57,7 @@ button a:hover {
 #embaixo {
   margin-top: 300px;
   background-color: red;
-  height:79px;
+  height: 79px;
 }
 #embaixo p {
   padding-left: 500px;
@@ -67,3 +65,22 @@ button a:hover {
   color: white;
   font-size: large;
 }
+.tabelas {
+  border: 1px solid black;
+  width: 100px;
+  height: 75px;
+  padding: 10px;
+  margin-left: 50px;
+  align-content: center;
+}
+table tbody {
+  background-color: grey;
+  border: 3px solid red;
+}
+table:hover {
+  color: blue;
+}
+tbody td {
+  border-bottom: 10px solid black;
+}
+
